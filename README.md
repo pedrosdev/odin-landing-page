@@ -1,2 +1,15 @@
-# odin-landing-page
-Simple landing page built as part of The Odin Project's curriculum
+
+# Introduction
+
+Simple landing page built with flexbox layout.
+
+## Learning goals:
+
+Get practice building pages with flexbox.
+
+## Skills:
+
+ - Flexbox
+ - Git workflow
+
+This project was created as part of the curriculum for The Odin Project.
