@@ -3,12 +3,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  font-size: 18px;
 }
 
 .hero-container {
@@ -16,7 +18,7 @@ body {
 }
 
 .header {
-  max-width: 1000px;
+  max-width: 1100px;
   display: flex;
   margin: 0 auto;
   padding: 16px 24px;
@@ -25,7 +27,6 @@ body {
   align-items: center;
   list-style-type: none;
   color: #e5e7eb;
-  font-size: 18px;
 }
 
 .header .logo {
@@ -34,10 +35,10 @@ body {
 }
 
 .hero {
-  max-width: 1000px;
+  max-width: 1100px;
   display: flex;
-  margin: 0 auto;
-  padding: 96px 24px;
+  margin: 120px auto;
+  padding: 0 24px;
   gap: 48px;
 }
 
@@ -64,7 +65,7 @@ body {
   background-color: #3882f6;
   color: #f9faf8;
   font-family: inherit;
-  font-size: 18px;
+  font-size: inherit;
   cursor: pointer;
 }
 
@@ -104,7 +105,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 36px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .info div {
@@ -122,5 +123,29 @@ body {
 .info p {
   margin: 8px 0;
   color: #3e4753;
-  font-size: 18px
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 720px;
+  margin: 120px 0 80px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote-container .attr {
+  padding: 8px 16px;
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
 }
